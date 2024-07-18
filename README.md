@@ -7,3 +7,5 @@ That’s why I decided to create a free tool. In fact, I made it for my own use 
 If you are satisfied with the fee-free service,
 
 I would appreciate it if you could send a small amount, like the cost of a coffee, to the wallet address below.
+
+`0xd1c36cBE0c39594e93B99396b00c7421B9bDf5B7`
