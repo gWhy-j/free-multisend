@@ -1,0 +1,2 @@
+GasliteDrop/=lib/GasliteDrop/contracts/src
+forge-std/=lib/forge-std/src
