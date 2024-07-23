@@ -15,8 +15,8 @@ contract DeployScript is Script {
 
     function run() public {
         vm.startBroadcast(deployerPrivateKey);
-        new GasliteDrop{salt: bytes32(0)}();
-
+        GasliteDrop gasliteDrop = new GasliteDrop{salt: bytes32(0)}();
+        require(address(gasliteDrop) == 0x608329f322648f3661ff487A569d644Befeed8bB, "Invalid address");
         vm.stopBroadcast();
     }
 }
