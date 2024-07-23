@@ -10,6 +10,23 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        displayLarge: 'var(--display--large)',
+        displayMedium: 'var(--display--medium)',
+        displaySmall: 'var(--display--small)',
+        headlineLarge: 'var(--headline--large)',
+        headlineMedium: 'var(--headline--medium)',
+        headlineSmall: 'var(--headline--small)',
+        bodyLarge: 'var(--body--large)',
+        bodyMedium: 'var(--body--medium)',
+        bodySmall: 'var(--body--small)',
+        labelLarge: 'var(--label--large)',
+        labelMedium: 'var(--label--medium)',
+        labelSmall: 'var(--label--small)',
+        titleLarge: 'var(--title--large)',
+        titleMedium: 'var(--title--medium)',
+        titleSmall: 'var(--title--small)',
+      },
       colors: {
         primary: 'var(--md-sys-color-primary)',
         surfaceTint: 'var(--md-sys-color-surface-tint)',

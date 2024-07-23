@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { VT323 } from 'next/font/google';
 import { headers } from 'next/headers';
 import './globals.css';
 import Provider from './provider';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = VT323({ subsets: ['latin'], weight: '400' });
 
 export const metadata: Metadata = {
   title: 'Token Pipeline',
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="light">
-      <body className={`w-dvw h-dvh bg-surface ${inter.className}`}>
+      <body className={`w-dvw h-dvh bg-black ${inter.className}`}>
         <Provider cookie={headers().get('cookie')}>{children} </Provider>
       </body>
     </html>
